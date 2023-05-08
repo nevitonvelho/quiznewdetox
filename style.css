@@ -5,6 +5,7 @@
         margin: 0;
         box-sizing: border-box;
       }
+
       body {
         font-family: 'Poppins', sans-serif;
       }
@@ -13,6 +14,7 @@
         background-color: red;
         padding: 12px 0;
         color: #fff;
+        font-size: 1.2em;
       }
 
       .contentText{
@@ -29,7 +31,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        max-width: 600px;
+        max-width: 900px;
         margin: 0 auto;
         padding: 2rem;
         box-sizing: border-box;
@@ -37,7 +39,7 @@
       }
 
       .etapa h2 {
-        font-size: 2rem;
+        font-size: 2em;
         margin-bottom: 2rem;
       }
 
@@ -48,8 +50,8 @@
       }
 
       .opcoes button {
-        font-size: 1.5rem;
-        padding: 1rem;
+        font-size: 2em;
+        padding: 12px 42px;
         border: none;
         text-transform: uppercase;
         border-radius: 999px;
@@ -109,11 +111,49 @@
       
 
       .imgContent{
-
         width: 300px;
       }
 
       .imgContent img{
         width: 100%;
         height: 100%;
+      }
+
+      @media screen and (max-width: 1200px){
+        header{
+          background-color: red;
+          padding: 12px 0;
+          color: #fff;
+          font-size: 1.7em;
+        }
+
+        .etapa h2 {
+          font-size: 4em;
+          margin-bottom: 2rem;
+        }
+       
+        .opcoes button {
+          font-size: 4em;
+          padding: 12px 42px;
+          border: none;
+          text-transform: uppercase;
+          border-radius: 999px;
+          background-color: #4cd919;
+          color: #fff;
+          cursor: pointer;
+          font-weight: bold;
+        }
+
+        .imgContent{
+          width: 600px;
+        }
+
+        .progresso {
+        
+          height: 40px;
+          background-color: #ccc;
+          margin-bottom: 1rem;
+          border-radius: 999px;
+         
+        }
       }
