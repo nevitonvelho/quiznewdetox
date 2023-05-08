@@ -1,0 +1,119 @@
+      /* Estilos gerais */
+
+      *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+
+      header{
+        background-color: red;
+        padding: 12px 0;
+        color: #fff;
+      }
+
+      .contentText{
+        max-width: 1200px;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      }
+
+      .etapa {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 2rem;
+        box-sizing: border-box;
+        text-align: center;
+      }
+
+      .etapa h2 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      .opcoes {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+      }
+
+      .opcoes button {
+        font-size: 1.5rem;
+        padding: 1rem;
+        border: none;
+        text-transform: uppercase;
+        border-radius: 999px;
+        background-color: #4cd919;
+        color: #fff;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      .opcoes button:hover {
+        background-color: #3ba316;
+      }
+
+      /* Esconde as etapas que não estão ativas */
+      .escondido {
+        display: none;
+      }
+
+      .progresso {
+        
+        height: 20px;
+        background-color: #ccc;
+        margin-bottom: 1rem;
+        border-radius: 999px;
+       
+      }
+      
+      .progresso-barra {
+        height: 100%;
+        background-color: #11f418;
+        border-radius: 999px;
+      
+        width: 0%;
+        transition: width 0.5s ease-in-out;
+      }
+
+      .contentQuiz{
+        background-image: url('111.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .etapa h2{
+        color: #fff;
+        text-transform: uppercase;
+      }
+
+      .content-result{
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: auto;
+        max-width: 1200px;
+      }
+      
+
+      .imgContent{
+
+        width: 300px;
+      }
+
+      .imgContent img{
+        width: 100%;
+        height: 100%;
+      }

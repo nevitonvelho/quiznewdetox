@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Quiz de Emagrecimento</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <div class="contentText">
+            <h2>QUIZ TRATAMENTO DAS ESTRELAS</h2>
+        </div>
+    </header>
+    <section class="contentQuiz">
+        <div class="content-result">
+             <div >
+                 <div class="progresso">
+                     <div class="progresso-barra"></div>
+                 </div>
+                 <!-- Etapa 1: Pergunta 1 -->
+                 <div id="etapa1" class="etapa">
+                 <h2>Está insatisfeita ou insegura com o próprio corpo?</h2>
+                 <div class="opcoes">
+                     <button onclick="respostaSim()">Sim</button>
+                     <button onclick="respostaNao()">Não</button>
+                 </div>
+                 </div>
+     
+                 <!-- Etapa 2: Pergunta 2 -->
+                 <div id="etapa2" class="etapa escondido">
+                 <h2>Deseja eliminar aquelas gordurinhas localizadas que tanto incomoda?</h2>
+                 <div class="opcoes">
+                     <button onclick="respostaSim()">Sim</button>
+                     <button onclick="respostaNao()">Não</button>
+                 </div>
+                 </div>
+     
+                 <!-- Etapa 3: Pergunta 3 -->
+                 <div id="etapa3" class="etapa escondido">
+                 <h2>Parabéns, você acabou de descobrir o tratamento que está sendo sucesso entre as famosas</h2>
+                <div class="imgContent">
+                    <img src="asdwsw-1.webp" alt="">
+                </div>
+                 <div class="opcoes">
+                     <button onclick="encaminhaSite()">Descobrir o tratamento</button>
+                 </div>
+                 </div>
+             </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
